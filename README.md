@@ -1,47 +1,41 @@
+🏢 DeskGenie Pro
+Enterprise Desktop Management Dashboard
+📖 Overview
+
 DeskGenie Pro is a structured desktop management system designed to automate file organization, enforce workspace hygiene, and provide enterprise-level traceability through timestamped audit logging and undo recovery mechanisms.
 
-The system emphasizes:
-
-Safe file operations
-
-Transparent logging
-
-Undo capability
-
-Structured organization
-
-Enterprise-style dashboard interface
+The application enables safe and transparent desktop cleanup using intelligent classification, duplicate detection, and structured file movement.
 
 🎯 Problem Statement
 
-Modern desktops often become cluttered due to:
+Desktop environments frequently become cluttered due to:
 
-Unorganized files
+Unorganized documents
 
-Duplicate documents
+Duplicate files
 
-Temporary files
+Temporary artifacts
 
-Lack of visibility into file movements
+Lack of traceability in file movements
 
-Manual cleanup inefficiencies
+Manual and error-prone cleanup
 
-DeskGenie Pro provides an automated yet safe solution to manage desktop environments efficiently.
+DeskGenie Pro provides a controlled, automated, and reversible solution for maintaining a clean and structured workspace.
 
-🚀 Features
+🚀 Core Features
 📂 Intelligent File Organization
 
 Keyword-based classification
 
 Extension-based categorization
 
-Structured folder creation
+Structured folder creation (Work, Study, Media, Personal, Archive)
 
 Confirmation before execution
 
 🔍 Duplicate Detection
 
-MD5 hash-based duplicate identification
+MD5 hash-based identification
 
 Safe archival of duplicates
 
@@ -69,6 +63,8 @@ Restores all moved files
 
 Full recovery capability
 
+Safe rollback of operations
+
 📝 Enterprise Logging System
 
 Timestamped logs
@@ -77,96 +73,95 @@ Log levels (INFO / SUCCESS / WARNING / ERROR)
 
 Exportable log file
 
-Clear console option
+Clear console functionality
 
-Full file path tracking
+Full file path visibility
 
-📁 Open Last Moved Folder
+📁 Quick Navigation
 
-Quickly navigate to latest destination
+Open last moved destination folder instantly
 
 🖥 User Interface
 
-DeskGenie Pro follows a corporate dashboard design with:
+The application follows a corporate dashboard layout with:
 
 Operations panel
+
+Structured action buttons
 
 Activity console
 
 Status bar
 
-Structured layout
+Enterprise-style visual hierarchy
 
-Enterprise color scheme
+The interface prioritizes clarity, traceability, and safe execution.
 
 🧠 Technical Architecture
 
 Language: Python
 GUI Framework: Tkinter
-Hashing: hashlib (MD5)
 File Operations: os, shutil
+Duplicate Detection: hashlib (MD5 hashing)
 Analytics: collections.Counter
 Logging: datetime-based timestamping
 
-Core Modules:
+Core subsystems include:
 
 Classification Engine
 
 File Movement Engine
 
-Logging System
+Logging & Audit Module
 
-Undo Stack
+Undo Stack Mechanism
 
 Dashboard UI Layer
 
 🛡 Safety & Reliability
 
+Confirmation dialogs before execution
+
 No automatic overwriting
 
-Confirmation dialogs
+Undo recovery support
 
-Full undo support
+Archive-based duplicate management
 
-Archive-based duplicate handling
+Full audit logging system
 
-Audit trail system
+📦 Installation & Usage
 
-📦 Installation & Running
-1️⃣ Clone the Repository
+Clone the repository:
+
 git clone https://github.com/navmi649/DeskGenie-Pro.git
 cd DeskGenie-Pro
-2️⃣ Run the Application
+
+Run the application:
+
 python main.py
-📹 Demo
-
-(Add your demo video link here after recording)
-
-Example:
-
-https://drive.google.com/your-demo-link
 📌 Future Enhancements
 
 Role-based modes (Developer / Enterprise)
 
-Health score system
+Workspace health scoring
 
 Scheduled automation
 
 Policy-based organization rules
 
-Cloud integration
+Cloud storage integration
 
 Installer packaging (.exe setup)
 
 📈 Project Status
 
 Version: 1.0.0
-Status: Stable
 Type: Desktop Application
+Status: Stable
 
 👩‍💻 Author
 
 Navami Jith
 Computer Science Engineering Student
-GitHub: https://github.com/navmi649
+
